@@ -1,0 +1,16 @@
+{
+  "name": "login-authorization-app",
+  "version": "1.0.0",
+  "description": "This application is a basic example of a login page with form validation capabilities. After a correct login proccedure the application displays a home page that presents a table populated with random users. The users content is derived from the faker.js moodule. The user is authorized via json web token and express.js. All the required HTTP requests were made with axios module.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Konstantinos Panagiotakis",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

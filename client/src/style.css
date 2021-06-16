@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(141, 255, 221);
+}
+
+.login-item {
+  margin-top: 30vh !important;
+}
+
+.login-container,
+.img-container {
+  min-height: 100vh;
+  min-height: 100%;
+}
+
+.wrapper,
+.table-wrapper {
+  margin: 0 auto;
+  box-shadow: 0px 14px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 139, 0.5);
+}
+
+.wrapper {
+  width: 500px;
+}
+
+.table-wrapper {
+  width: 800px;
+}
+
+.my-btn {
+  margin-top: 10px;
+  width: inherit;
+}
+
+.information-text-error {
+  border: 1px solid red;
+  border-radius: 2px;
+  padding: 5px;
+  box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 0, 0, 0.02);
+  font-style: italic;
+  font-weight: 600;
+  color: red;
+}
+
+.error-display {
+  border: 1px solid red !important;
+}
+
+.navbar-link,
+.navbar-link:visited,
+.nav-link,
+.nav-link:visited,
+.nav-link:hover {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+.welcome-box {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.logout-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.invisible {
+  visibility: hidden;
+}
